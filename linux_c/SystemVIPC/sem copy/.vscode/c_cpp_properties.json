@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                // 标准头文件
+                // "/opt/ctools/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/**",
+                // 内核头文件
+                "/home/xuan/Work/embest/sourcefile/RIotboard_L4.9.88_2.00_ga_SDK/linux_imx/include/**",
+                "/home/xuan/Work/embest/sourcefile/RIotboard_L4.9.88_2.00_ga_SDK/linux_imx/include/linux/**",
+                "/home/xuan/Work/embest/sourcefile/RIotboard_L4.9.88_2.00_ga_SDK/linux_imx/arch/arm/include/**",
+                "/home/xuan/Work/embest/sourcefile/RIotboard_L4.9.88_2.00_ga_SDK/linux_imx/arch/arm/include/generated/**"
+            ],
+            // "compileCommands": "/home/xuan/Work/embest/sourcefile/RIotboard_L4.9.88_2.00_ga_SDK/linux_imx/compile_commands.json",
+            "compilerArgs": [
+                "-nostdinc", //-nostdinc 不在标准系统目录中搜索头文件，只在-I指定的目录中搜索
+                
+                // 标准头文件
+                "-I /opt/ctools/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.3.1/include",
+                "-I /opt/ctools/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.3.1/include-fixed",
+                "-I /opt/ctools/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include",
+                "-I /opt/ctools/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include"
+            ], 
+            "defines": [],
+            "compilerPath": "/opt/ctools/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/xuan/Work/embest/sourcefile/RIotboard_L4.9.88_2.00_ga_SDK/linux_imx/include",
+                "/home/xuan/Work/embest/sourcefile/RIotboard_L4.9.88_2.00_ga_SDK/linux_imx/arch/arm/include",
+                "/home/xuan/Work/embest/sourcefile/RIotboard_L4.9.88_2.00_ga_SDK/linux_imx/arch/arm/include/generated"
+            ],
+            "compileCommands": "/home/xuan/Work/embest/sourcefile/RIotboard_L4.9.88_2.00_ga_SDK/linux_imx/compile_commands.json",
+            "compilerArgs": [],
+            "cStandard":"",
+            "intelliSenseMode": "",
+            "defines": []
+        }
+    ],
+    "version": 4
+}
